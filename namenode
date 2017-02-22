@@ -1,0 +1,6 @@
+The namenode stores activities in the form of metadata.
+As it is stored in the form of metadata and on the RAM, faster retreival is possible.
+It manages block storage.
+Namenode works in upward as well as downward behaviour.
+It interacts with client requests in the upward form and does block storage management on slave side(downward).
+HDFS federation where multiple namenodes are available helps in catering the problem of metadata storage in 1.X.
